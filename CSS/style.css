@@ -4,9 +4,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
-    background-color: transparent;
-}
+
 header {
     background-image: linear-gradient(rgba(0,0,0,0.5),(0,0,0,0.5)), url(../mountains.png); /* set background picture */
     height: 100vh; /* sets height of image */
