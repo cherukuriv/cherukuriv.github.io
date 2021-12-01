@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: transparent;
 }
 header {
     background-image: linear-gradient(rgba(0,0,0,0.5),(0,0,0,0.5)), url(../mountains.png); /* set background picture */
