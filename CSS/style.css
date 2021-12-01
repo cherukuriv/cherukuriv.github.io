@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'KumarOne-Regular.ttf';
 }
 
 body{
@@ -27,17 +27,17 @@ ul li a{
     color: white; /* color of tab lettering */
     padding: 5px 20px; /* sets height and width of tabs */
     border: 1px solid transparent; /* border color on tabs */
-    transition: 0.3s ease; /* length of transition when hovering */
+    transition: 0.4s ease; /* length of transition when hovering */
 }
 
 ul li a:hover{
     background-color: white; /* changes color of tab background when hovering */
-    color: black; /* changes color of lettering for tabs when hovering */
+    color: #220055; /* changes color of lettering for tabs when hovering */
 }
 
 ul li.active a{
     background-color: white; /* sets color of tab background when active */
-    color: black; /* sets color of lettering for tabs when active */
+    color: #220055; /* sets color of lettering for tabs when active */
 }
 
 .logo img{
@@ -73,7 +73,7 @@ ul li.active a{
 
 .btn:hover{
     background-color: white; /* changes color of button background when hovering */
-    color: black; /* changes color of lettering for button when hovering */
+    color: #220055; /* changes color of lettering for button when hovering */
 }
 
 .title h1{
