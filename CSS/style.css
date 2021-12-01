@@ -45,6 +45,7 @@ ul li.active a{
     width: 75px; /* sets width of logo in pixels*/
     height: auto; /* adjusts height based on width to maintain aspect ratio*/
     margin-top: 10px;
+    margin-left: 10px;
 }
 .main{
     max-width: 1200px; /*sets max width of everything inside .main*/
