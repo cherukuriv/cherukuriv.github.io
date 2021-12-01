@@ -4,10 +4,20 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+head{
+    background-color: black;
+}
 header{
     background-color: bisque;
 }
 
 section{
     background-color: darksalmon;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: white
 }
