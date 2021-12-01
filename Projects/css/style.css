@@ -45,6 +45,16 @@ ul li a {
 
  }
 
+ /*styling for project buttons*/
+a.btn image {
+    height: 300px;
+    width: 540px;
+    border: solid 3px #fff;
+    position: center;
+}
+
+
+
  /* Styling for logo */
 .logo img {
     float: left; /* sets logo on left side of screen*/
