@@ -47,8 +47,8 @@ ul li a {
 
  /*styling for project buttons*/
 a.btn img {
-    height: 50px;
-    width: auto;
+    height: 300px;
+    width: 540px;
     border: solid 3px #fff;
     position: center;
 }
