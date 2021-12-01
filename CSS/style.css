@@ -7,15 +7,79 @@
 body{
     background-color: black;
 }
-header{
-    background-color: bisque;
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),(0,0,0,0.5)), url(); /* set background picture */
+    height: 100vh; /* sets height of image */
+    background-size: cover; /* set to cover all of header area */
+    background-position: center; /* sets position of image to center */
 }
 
-section{
-    background-color: darksalmon;
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
 }
-h1{
+
+ul li{
+    display: inline-block; /* sets tabs horizontal */
+}
+ul li a{
+    text-decoration: none;
+    color: #fff; /* color of tab lettering */
+    padding: 5px 20px; /* sets height and width of tabs */
+    border: 1px solid transparent; /* border color on tabs */
+    transition: 0.3s ease; /* length of transition when hovering */
+}
+
+ul li a:hover{
+    background-color: #fff; /* changes color of tab background when hovering */
+    color: #000; /* changes color of lettering for tabs when hovering */
+}
+
+ul li.active a{
+    background-color: #fff; /* sets color of tab background when active */
+    color: #000; /* sets color of lettering for tabs when active */
+}
+
+.logo img{
+    float: left; /* sets logo on left side of screen*/
+    width: 150px; /* sets width of logo in pixels*/
+    height: auto; /* adjusts height based on width to maintain aspect ratio*/
+}
+.main{
+    max-width: 1200px; /*sets max width of everything inside .main*/
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #fff; /* changes color of button background when hovering */
+    color: #000; /* changes color of lettering for button when hovering */
+}
+
+.title h1{
     color: aliceblue;
+    font-size: 70px;
 }
 p{
     color: white
