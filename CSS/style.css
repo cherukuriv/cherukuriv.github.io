@@ -47,7 +47,7 @@ ul li.active a{
     margin-left: 10px;
 }
 .main{
-    max-width: 1600px; /*sets max width of everything inside .main*/
+    max-width: 2000px; /*sets max width of everything inside .main*/
 }
 
 .title{
