@@ -6,10 +6,6 @@
 
 body{
     background-color: black;
-    background-image: linear-gradient(rgba(0,0,0,0.5),(0,0,0,0.5)), url(mountains.jpeg); /* set background picture */
-    height: 100vh; /* sets height of image */
-    background-size: cover; /* set to cover all of header area */
-    background-position: center; /* sets position of image to center */
 }
 
 ul{
