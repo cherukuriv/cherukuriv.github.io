@@ -42,10 +42,9 @@ ul li.active a{
 
 .logo img{
     float: left; /* sets logo on left side of screen*/
-    width: 50px; /* sets width of logo in pixels*/
+    width: 75px; /* sets width of logo in pixels*/
     height: auto; /* adjusts height based on width to maintain aspect ratio*/
-    margin-top: 25px;
-    margin-left: 25px;
+    margin-top: 10px;
 }
 .main{
     max-width: 1200px; /*sets max width of everything inside .main*/
