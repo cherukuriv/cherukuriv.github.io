@@ -4,7 +4,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header {
+header{
     background-image: linear-gradient(rgba(0,0,0,0.5),(0,0,0,0.5)), url(../mountains.jpeg); /* set background picture */
     height: 100vh; /* sets height of image */
     background-size: cover; /* set to cover all of header area */
@@ -20,22 +20,23 @@ ul{
 ul li{
     display: inline-block; /* sets tabs horizontal */
 }
+
 ul li a{
     text-decoration: none;
-    color: #fff; /* color of tab lettering */
+    color: white; /* color of tab lettering */
     padding: 5px 20px; /* sets height and width of tabs */
     border: 1px solid transparent; /* border color on tabs */
     transition: 0.3s ease; /* length of transition when hovering */
 }
 
 ul li a:hover{
-    background-color: #fff; /* changes color of tab background when hovering */
-    color: #000; /* changes color of lettering for tabs when hovering */
+    background-color: white; /* changes color of tab background when hovering */
+    color: black; /* changes color of lettering for tabs when hovering */
 }
 
 ul li.active a{
-    background-color: #fff; /* sets color of tab background when active */
-    color: #000; /* sets color of lettering for tabs when active */
+    background-color: white; /* sets color of tab background when active */
+    color: black; /* sets color of lettering for tabs when active */
 }
 
 .logo img{
@@ -62,22 +63,19 @@ ul li.active a{
 }
 
 .btn{
-    border: 1px solid #fff;
+    border: 1px solid white;
     padding: 10px 30px;
-    color: #fff;
+    color: white;
     text-decoration: none;
     transition: 0.3s ease;
 }
 
 .btn:hover{
-    background-color: #fff; /* changes color of button background when hovering */
-    color: #000; /* changes color of lettering for button when hovering */
+    background-color: white; /* changes color of button background when hovering */
+    color: black; /* changes color of lettering for button when hovering */
 }
 
 .title h1{
-    color: aliceblue;
+    color: white;
     font-size: 70px;
-}
-p{
-    color: white
 }
