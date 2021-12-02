@@ -4,8 +4,9 @@
     font-family: 'KumarOne-Regular.ttf';
 }
 
-body{
-    background-color: #17003b; /* background color for body */
+body {
+    background-image: linear-gradient(to bottom, rgba(23, 0, 59, 0.5),rgba(23, 0, 59, 0.5)), url(../pictures/background.png);
+    background-size: cover;
 }
 
 .main {
