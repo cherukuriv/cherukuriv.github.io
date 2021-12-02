@@ -46,13 +46,16 @@ ul li a {
  }
 
  /*styling for project buttons*/
-.button a.btn img {
+a.btn img {
     height: 150px;
     width: 270px;
-    border: solid 3px #fff;
-    position: center center;
+    border: solid 3px white;
+    background-color: white;
 }
 
+.button a{
+    object-position: center center;
+}
 
 
  /* Styling for logo */
