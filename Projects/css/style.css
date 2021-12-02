@@ -46,7 +46,7 @@ ul li a {
  }
 
  /*styling for project buttons*/
-a.btn img {
+.button a.btn img {
     height: 150px;
     width: 270px;
     border: solid 3px #fff;
