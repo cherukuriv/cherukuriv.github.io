@@ -1,28 +1,33 @@
-/*Home CSS*/
+/*Contact CSS*/
 
 *{
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-image:
+body {
+    background-image: 
         linear-gradient(to bottom, rgba(23, 0, 59, 0.5),rgba(23, 0, 59, 0.5)), 
         url(../pictures/background.png);
     background-size: cover;
 }
 
-ul{
+.main {
+    max-width: 2000px; /* sets max width of everything inside .main */
+}
+
+/* Styling for tabs in top right corner */
+ul {
     float: right;
     list-style-type: none;
     margin-top: 25px;
 }
 
-ul li{
+ul li {
     display: inline-block; /* sets tabs horizontal */
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: white; /* color of tab lettering */
     padding: 5px 20px; /* sets height and width of tabs */
@@ -30,55 +35,21 @@ ul li a{
     transition: 0.4s ease; /* length of transition when hovering */
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: white; /* changes color of tab background when hovering */
     color: #220055; /* changes color of lettering for tabs when hovering */
 }
 
-ul li.active a{
+ul li.active a {
     background-color: white; /* sets color of tab background when active */
     color: #220055; /* sets color of lettering for tabs when active */
 }
 
-.logo img{
+/* Styling for logo */
+.logo img {
     float: left; /* sets logo on left side of screen*/
     width: 75px; /* sets width of logo in pixels*/
     height: auto; /* adjusts height based on width to maintain aspect ratio*/
     margin-top: 10px;
     margin-left: 10px;
-}
-.main{
-    max-width: 2000px; /*sets max width of everything inside .main*/
-}
-
-.title{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.btn{
-    border: 1px solid white;
-    padding: 10px 30px;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
-
-.btn:hover{
-    background-color: white; /* changes color of button background when hovering */
-    color: #220055; /* changes color of lettering for button when hovering */
-}
-
-.title h1{
-    color: white;
-    font-size: 70px;
 }
