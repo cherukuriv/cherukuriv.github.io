@@ -56,8 +56,11 @@ a.btn img {
     background-color: white;
 }
 
-.button a{
-    text-align:center;
+.button a {
+    height: 150px;
+    width: 270px;
+    border: solid 3px white;
+    margin: 0 auto;
 }
 
 
