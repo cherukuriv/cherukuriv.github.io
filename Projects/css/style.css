@@ -50,7 +50,7 @@ ul li a {
 
  /*styling for project buttons*/
 
-.button{
+.flex-button{
     display: flex;
 }
 
@@ -66,6 +66,7 @@ a.btn img {
     width: 270px;
     border: solid 3px white;
     background-color: white;
+    margin-right: 20px;
 }
 
 .button a {
