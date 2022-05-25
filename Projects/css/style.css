@@ -49,6 +49,15 @@ ul li a {
  }
 
  /*styling for project buttons*/
+
+.button{
+    display: flex;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
 a.btn img {
     height: 150px;
     width: 270px;
@@ -60,7 +69,7 @@ a.btn img {
     height: 150px;
     width: 270px;
     border: solid 3px white;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 
