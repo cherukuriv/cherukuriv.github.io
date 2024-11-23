@@ -50,30 +50,35 @@ ul li a {
 
  /*styling for project buttons*/
 
-.flex-button{
-    display: flex;
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Fixed 4 columns */
+    gap: 20px; /* Space between buttons */
+    padding: 20px;
+    justify-content: center; /* Center the grid horizontally */
 }
 
-.jc-center{
-    flex-direction: column;
-    justify-content: center;
-    flex-direction: row;
-    justify-content: center;
+/* Style individual buttons */
+.button {
+    text-decoration: none;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
 }
 
-a.btn img {
-    height: 150px;
-    width: 270px;
-    border: solid 3px white;
-    background-color: white;
-    margin-right: 20px;
+/* Style the images inside buttons */
+.button img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.button a {
-    height: 150px;
-    width: 270px;
-    border: solid 3px white;
-    margin: 20px;
+/* Add hover effect */
+.button:hover {
+    transform: scale(1.05);
+    color: rgba(102, 51, 153, 0.5);
 }
 
 
